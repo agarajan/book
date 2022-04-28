@@ -11,7 +11,7 @@ public class Account {
 	//System.out.println(balance);
 	//System.out.println(benAcc.balance);
 	if(balance<amt) {
-		System.out.println("Sorry boss u hv no enough funds");
+		System.out.println("Sorry you are not having enough fund to transfer");
 		return "Sorry boss u hv no enough funds";
 	}
 	else {
